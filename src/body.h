@@ -8,7 +8,7 @@
 #include <stdio.h>
 
 /*
-  Struct to hold a 3 dimensional vector
+  Struct to hold a 3 dimensional vector with components x y z.
 */
 struct Vector {
   double x;
@@ -29,20 +29,15 @@ struct Vector {
 };
 
 /*
-  Class for a body in the simulation.
+  Class for a body in the simulation that tracks the position, velocity, mass,
+  and radius. Also carries the relevant functions for drawing the body in the
+  simulation, as well as updating the body.
 */
 class Body {
  public:
-  /* The position of the body in 3 dimensional space */
   Vector position_;
-
-  /* The velocity of the body in 3 dimensional space */
   Vector velocity_;
-
-  /* The mass of the body */
   double mass_;
-
-  /* The radius of the body (visual only) */
   double radius_;
 
   Body(Vector p, Vector v, double m, double r) {
@@ -52,10 +47,13 @@ class Body {
     radius_ = r;
   }
 
-  /* Will draw the body in the OpenFrameworks application */
+  /* Will draw the body in the OpenFrameworks application. */
   void Draw() const;
 
-  /* Update the position of the body using the time step */
+  /*
+    Update the position of the body by modeling the body movement with the
+    given time step.
+   */
   void UpdatePosition(double time_step);
 };
 

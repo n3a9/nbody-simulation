@@ -7,12 +7,12 @@ const double kG = 6.67E-11;
 /* Number of bodies to be run in the simulation */
 const int kBodyCount = 500;
 
-/* Mass constants - scaled for compiler */
+/* Mass constants - scaled for OpenFrameworks */
 const double kMassScale = 1E-15;
 const double kSolarMass = 1.989E30;
 const double kSolarMassScaled = kMassScale * kSolarMass;
 
-/* Time constants - scaled due to mass scale */
+/* Time constants - scaled due to mass scaling */
 const double kTimeScale = 1E-10;
 const double kSecondsInYear = 3.154E7;
 

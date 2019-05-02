@@ -36,9 +36,15 @@ All of the constants exist in the [constants.h](https://github.com/n3a9/nbody-si
 
 4. Pressing 2 will reset the simulation with kinetic bodies
 
-## Dependencies
+## Development
+
+### Dependencies
 
 [ofxBloom](https://github.com/P-A-N/ofxBloom)
+
+### Code Style
+
+All code follows the [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html).
 
 ## License
 
