@@ -4,7 +4,7 @@ An n-body simulation visualizer using C++ in OpenFrameworks.
 
 Watch the YouTube video of it in action: [https://youtu.be/PM9dYcsKkDI](https://youtu.be/PM9dYcsKkDI)
 
-![nbody-sim-screenshot](https://user-images.githubusercontent.com/7104017/56918864-c1bb0f80-6a84-11e9-86e7-b5cc36c4ee30.png)
+![nbody-sim-gif](https://user-images.githubusercontent.com/7104017/76712890-da063e00-66d9-11ea-9555-7e6cd908f90d.gif)
 
 ## Installation & Setup
 
